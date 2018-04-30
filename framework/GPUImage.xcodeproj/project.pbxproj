@@ -351,6 +351,7 @@
 		BCFF46FE1CBB0C1F00A0C521 /* AverageColorExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF46FD1CBB0C1F00A0C521 /* AverageColorExtractor.swift */; };
 		BCFF47081CBB443B00A0C521 /* CameraConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF47071CBB443B00A0C521 /* CameraConversion.swift */; };
 		EE35BD4D2097AFDC00764984 /* GreyScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35BD4C2097AFDC00764984 /* GreyScale.swift */; };
+		EE7419C02097B84300A9B0A3 /* OldFilmEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7416A72097B7D900A9B0A3 /* OldFilmEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -689,6 +690,8 @@
 		BCFF47071CBB443B00A0C521 /* CameraConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraConversion.swift; path = Source/CameraConversion.swift; sourceTree = "<group>"; };
 		EE35BD4C2097AFDC00764984 /* GreyScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GreyScale.swift; path = Source/Operations/GreyScale.swift; sourceTree = "<group>"; };
 		EE35BD4E2097B01E00764984 /* GreyScale_GLES.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = GreyScale_GLES.fsh; path = Source/Operations/Shaders/GreyScale_GLES.fsh; sourceTree = "<group>"; };
+		EE7416A72097B7D900A9B0A3 /* OldFilmEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OldFilmEffect.swift; path = Source/Operations/OldFilmEffect.swift; sourceTree = "<group>"; };
+		EE7419BE2097B83B00A9B0A3 /* OldFilmEffect_GLES.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = OldFilmEffect_GLES.fsh; path = Source/Operations/Shaders/OldFilmEffect_GLES.fsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1016,6 +1019,8 @@
 		BC7FD0A91CA76F9F00037949 /* Effects */ = {
 			isa = PBXGroup;
 			children = (
+				EE7416A72097B7D900A9B0A3 /* OldFilmEffect.swift */,
+				EE7419BE2097B83B00A9B0A3 /* OldFilmEffect_GLES.fsh */,
 				BC7FD0B81CA7793500037949 /* CGAColorspaceFilter.swift */,
 				BC7FD0AA1CA7756900037949 /* CGAColorspace_GL.fsh */,
 				BC7FD0BC1CA77A9300037949 /* KuwaharaFilter.swift */,
@@ -1641,6 +1646,7 @@
 				BC9E357E1E5256FE00B8604F /* Vibrance.swift in Sources */,
 				BC9E35471E524D9A00B8604F /* SolidColorGenerator.swift in Sources */,
 				BC9E356E1E5256CE00B8604F /* FalseColor.swift in Sources */,
+				EE7419C02097B84300A9B0A3 /* OldFilmEffect.swift in Sources */,
 				BC9E35881E52572000B8604F /* ThresholdSobelEdgeDetection.swift in Sources */,
 				BC9E356F1E5256D000B8604F /* HighlightsAndShadows.swift in Sources */,
 				BC9E35AA1E52578900B8604F /* Halftone.swift in Sources */,
