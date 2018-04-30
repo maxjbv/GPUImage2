@@ -351,7 +351,6 @@
 		BCFF46FE1CBB0C1F00A0C521 /* AverageColorExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF46FD1CBB0C1F00A0C521 /* AverageColorExtractor.swift */; };
 		BCFF47081CBB443B00A0C521 /* CameraConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF47071CBB443B00A0C521 /* CameraConversion.swift */; };
 		EE35BD4D2097AFDC00764984 /* GreyScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35BD4C2097AFDC00764984 /* GreyScale.swift */; };
-		EE35BD4F2097B01E00764984 /* GreyScale_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = EE35BD4E2097B01E00764984 /* GreyScale_GLES.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1356,7 +1355,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE35BD4F2097B01E00764984 /* GreyScale_GLES.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
